@@ -122,7 +122,8 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 ---
 
 ## Books
-*(No entries yet, contributions welcome!)*
+- **[Modern Robotics: Mechanics, Planning, and Control (2017) by Kevin M. Lynch & Frank C. Park](https://www.amazon.co.uk/gp/product/1107156300/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)**  
+  A comprehensive introduction to robotics mechanics, motion planning, and control, integrating theory with practical insights.
 
 ---
 
