@@ -19,6 +19,8 @@ This list is intentionally **selective**. It focuses on high-quality, useful, an
 - [Books](#books)
 - [Podcasts](#podcasts)
 - [Inspiring Robotics Companies & Projects](#inspiring-robotics-companies--projects)
+- [License](#license)
+- [Contributing](#contributing)
 
 ---
 
@@ -31,9 +33,6 @@ A collection of notable open-source robotics projects that push boundaries and i
 
 - **[SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)**  
   A modular robotic arm designed by **[The Robot Studio](https://www.therobotstudio.com/)** for accessible, open-source robotics experimentation.
-
-- **[OpenVLA](https://openvla.github.io/)**  
-  An open-source vision-language-action (VLA) model enabling robot control through vision and language understanding.
 
 ### Robotic Hands
 - **[Leap Hand Project](https://leaphand.com/)**  
@@ -58,14 +57,11 @@ A collection of notable open-source robotics projects that push boundaries and i
 ## Open Source Software
 Essential tools and frameworks for developing, controlling, and simulating robots.
 
-- **[ROS (Robot Operating System)](https://www.ros.org/)**  
-  The standard open-source framework for developing and controlling robotic systems.
-
 - **[ROS 2](https://docs.ros.org/en/foxy/index.html)**  
-  The next-generation version of ROS, optimized for real-time performance.
+  The next-generation version of the Robot Operating System (ROS), optimized for real-time performance.
 
-- **[HuggingFace Le Robot](https://huggingface.co/leobot)**  
-  HuggingFace’s open-source robotics platform with pre-trained models and tools.
+- **[LeRobot](https://huggingface.co/lerobot)**  
+  State-of-the-art machine learning models and tools for real-world robotics.
 
 - **[Dora AI](https://dora-rs.ai/)**  
   A real-time, distributed AI runtime for robotics applications, built with Rust.
@@ -80,7 +76,12 @@ Essential tools and frameworks for developing, controlling, and simulating robot
   A transformer model fine-tuned for robotics tasks, enabling action-conditioned decision-making.
 
 - **[OpenVLA](https://openvla.github.io/)**  
-  An open-source Vision-Language-Action (VLA) model trained on large-scale manipulation episodes.
+  An open-source Vision-Language-Action (VLA) model.
+
+---
+
+## Datasets
+*(No entries yet, contributions welcome!)*
 
 ---
 
@@ -100,19 +101,16 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 ---
 
 ## People to Follow
-- **[Deepak Pathak](https://pathak22.github.io/)**  
+- **[Deepak Pathak](https://twitter.com/pathak22)**  
   Researcher in reinforcement learning and embodied AI at CMU.
 
-- **[Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)**  
+- **[Pieter Abbeel](https://twitter.com/pabbeel)**  
   Expert in deep reinforcement learning and robotics.
 
-- **[Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)**  
-  Leading researcher in AI-driven robotics.
-
-- **[Chelsea Finn](https://ai.stanford.edu/~cbfinn/)**  
+- **[Chelsea Finn](https://twitter.com/chelseabfinn)**  
   Researcher in meta-learning, reinforcement learning, and robotics.
 
-- **[Angela Schoellig](https://www.dynsyslab.org/prof-angela-schoellig/)**  
+- **[Angela Schoellig](https://twitter.com/aschoellig)**  
   Expert in controls and machine learning for robotics.
 
 - **[Rémi Cadène](https://twitter.com/remicadene)**  
@@ -120,6 +118,16 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 
 - **[Audrow Nash](https://twitter.com/audrow)**  
   Host of the Audrow Nash Podcast, exploring robotics and AI.
+
+---
+
+## Books
+*(No entries yet, contributions welcome!)*
+
+---
+
+## Podcasts
+*(No entries yet, contributions welcome!)*
 
 ---
 
