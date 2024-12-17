@@ -26,24 +26,18 @@ This list is intentionally **selective**. It focuses on high-quality, useful, an
 A collection of notable open-source robotics projects that push boundaries and inspire.
 
 ### Robotic Arms
-- **[Bcn3D Moveo](https://www.bcn3d.com/en/robotic-arm-moveo/)**  
+- **[Bcn3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
   A fully open-source 3D-printable robotic arm developed by BCN3D Technologies. Designed for educational and research purposes.
 
-- **[SO-100 Robotic Arm](https://huggingface.co/leobot/so-100)**  
-  An open-source robotic arm featured in HuggingFace’s *Le Robot* project. Designed for modular, accessible robotics development.
-
-- **[The Robot Studio Arm](https://www.therobotstudio.com/)**  
-  Open-source, modular robotic arms designed for research, experimentation, and educational purposes.
+- **[SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)**  
+  A modular robotic arm designed by **[The Robot Studio](https://www.therobotstudio.com/)** for accessible, open-source robotics experimentation.
 
 - **[OpenVLA](https://openvla.github.io/)**  
-  A modular, open-source robotic vision-language-action platform.
+  An open-source vision-language-action (VLA) model enabling robot control through vision and language understanding.
 
 ### Robotic Hands
-- **[Leap Hand Project](https://www.leaphand.org/)**  
-  An open-source, 3D-printed robotic hand designed to provide affordable prosthetics and serve as a research platform.
-
-- **[The Robot Studio Hand](https://www.therobotstudio.com/)**  
-  Modular and open-source robotic hands for versatile robotic manipulation.
+- **[Leap Hand Project](https://leaphand.com/)**  
+  An open-source, 3D-printed robotic hand providing affordable and functional prosthetics.
 
 ### Legged Robots
 - **[Extreme Parkour with Legged Robots](https://extreme-parkour.github.io/)**  
@@ -52,6 +46,12 @@ A collection of notable open-source robotics projects that push boundaries and i
 ### Humanoid-Like Systems
 - **[Red Rabbit Robotics RX1](https://github.com/Red-Rabbit-Robotics/rx1)**  
   A humanoid-like robot featuring dual robotic arms, designed for modular, experimental robotics innovation.
+
+- **[HOPEJr](https://chat.whatsapp.com/HumZyAUoPps9EW8TwcGFkC)**  
+  Open-source, DIY humanoid robots with dexterous hands and bouncy, low-cost components designed to leverage AI for practical control.
+
+- **[The Robot Studio Hand](https://www.therobotstudio.com/)**  
+  A combined **arm + hand** system designed for humanoid-like manipulation tasks.
 
 ---
 
@@ -80,12 +80,7 @@ Essential tools and frameworks for developing, controlling, and simulating robot
   A transformer model fine-tuned for robotics tasks, enabling action-conditioned decision-making.
 
 - **[OpenVLA](https://openvla.github.io/)**  
-  A vision-language-action model trained on large-scale robot manipulation episodes.
-
----
-
-## Datasets
-**(Coming Soon)**: Curated datasets for robotic control, manipulation, and perception.
+  An open-source Vision-Language-Action (VLA) model trained on large-scale manipulation episodes.
 
 ---
 
@@ -125,22 +120,6 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 
 - **[Audrow Nash](https://twitter.com/audrow)**  
   Host of the Audrow Nash Podcast, exploring robotics and AI.
-
----
-
-## Books
-- **[Modern Robotics: Mechanics, Planning, and Control](https://www.amazon.com/dp/1107156300)**  
-  Authors: *Kevin M. Lynch and Frank C. Park*  
-  Comprehensive coverage of kinematics, dynamics, and control.
-
----
-
-## Podcasts
-- **[Robots Brain Podcast](https://robotsbrainpodcast.com/)**  
-  A podcast exploring robotics innovations and technology.
-
-- **[The Audrow Nash Podcast](https://www.audrownash.com/podcast/)**  
-  Deep dives into robotics and AI with leading researchers.
 
 ---
 
