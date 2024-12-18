@@ -1,7 +1,7 @@
 # Awesome Open Source Robotics
 > A curated list of inspiring and impactful open-source robotics projects, tools, and resources.
 
-This list is intentionally **selective**. It focuses on high-quality, useful, and inspiring open-source robotics content. Contributions are welcome, but only the best make it here.
+This list is intentionally **selective**. It focuses on high-quality, useful, and inspiring open-source robotics content. Contributions are encouraged—just keep in mind that we strive to maintain an excellent standard of content.
 
 ---
 
@@ -124,17 +124,16 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 
 ## Podcasts
 - **[The Robot Brains Podcast](https://open.spotify.com/show/2qbLq3HrhTnnmmsHc37QOD)**  
-  In each episode, host Pieter Abbeel meets brilliant minds building robots with brains—leading experts in AI Robotics from around the world. They explore how far humanity has come in creating conscious computers, mindful machines, and rational robots.  
-  *Host:* Pieter Abbeel | *Executive Producers:* Alice Patel & Henry Tobias Jones | *Audio Production:* Kieron Matthew Banerji | *Title Music:* Alejandro Del Pozo
+  Explores the frontiers of AI and robotics through interviews with leading researchers and innovators.
 
 - **[Audrow Nash Podcast](https://open.spotify.com/show/74jWpWiLwsasY2QHtDcl8I)**  
-  In-depth, unscripted conversations with CEOs, CTOs, and thought leaders in the robotics industry, covering cutting-edge technology, business strategies, and the future of automation.
+  Features in-depth, unscripted conversations with industry leaders in robotics, focusing on emerging technologies and future directions.
 
 ---
 
 ## YouTube Channels
 - **[Skyentific](https://www.youtube.com/@Skyentific/videos)**  
-  Focused on developing practical and innovative robots, robotic arms, and legs, as well as other engineering projects. The channel aims to build a bright, robotic future that benefits everyone.
+  Showcasing practical and innovative robotics projects, including robotic arms and legs, with a goal of building a future that benefits everyone.
 
 ---
 
@@ -165,6 +164,9 @@ A reference list of non-open-source projects and companies that showcase state-o
 - **[Boston Dynamics](https://www.bostondynamics.com/)**  
    Industry leader in dynamic robots like **Spot** and **Atlas**.
 
+- **[Tesla](https://www.tesla.com/we-robot)**  
+   Developing the Optimus humanoid robot to advance automated labor and safety.
+
 ---
 
 ## License
@@ -173,7 +175,7 @@ This list is licensed under the [Creative Commons Zero v1.0 Universal](https://c
 ---
 
 ## Contributing
-Suggestions for new resources are welcome! Open an issue or submit a pull request, but keep in mind that only **high-quality, inspiring content** will be accepted.
+Suggestions for new resources are welcome! Open an issue or submit a pull request. We appreciate quality contributions that help maintain the inspiring standard of this collection.
 
 ---
 
