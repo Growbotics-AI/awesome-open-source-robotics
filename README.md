@@ -90,7 +90,7 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 - **[ICRA](https://www.ieee-icra.org/)**  
   International Conference on Robotics and Automation.
 
-- **[Humanoid Summit](https://humanoidsummit.com/)**  
+- **[Humanoids Summit](https://humanoidssummit.com/)**  
   Event focused on humanoid robotics advancements.
 
 ---
