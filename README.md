@@ -43,14 +43,8 @@ A collection of notable open-source robotics projects that push boundaries and i
   A project showcasing extreme agility and mobility for quadruped robots through learning-based parkour.
 
 ### Humanoid-Like Systems
-- **[Red Rabbit Robotics RX1](https://github.com/Red-Rabbit-Robotics/rx1)**  
-  A humanoid-like robot featuring dual robotic arms, designed for modular, experimental robotics innovation.
-
-- **[HOPEJr](https://chat.whatsapp.com/HumZyAUoPps9EW8TwcGFkC)**  
+- **[HOPEJr](https://github.com/TheRobotStudio/HOPEJr)**  
   Open-source, DIY humanoid robots with dexterous hands and bouncy, low-cost components designed to leverage AI for practical control.
-
-- **[The Robot Studio Hand](https://www.therobotstudio.com/)**  
-  A combined **arm + hand** system designed for humanoid-like manipulation tasks.
 
 ---
 
@@ -86,7 +80,7 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 ---
 
 ## Events
-- **[NeurIPS](https://nips.cc/)**  
+- **[NeurIPS](https://neurips.cc/)**  
   AI and machine learning conference with robotics highlights.
 
 - **[CoRL](https://www.robot-learning.org/)**  
@@ -101,7 +95,7 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 ---
 
 ## People to Follow
-- **[Deepak Pathak](https://twitter.com/pathak22)**  
+- **[Deepak Pathak](https://twitter.com/pathak2206)**  
   Researcher in reinforcement learning and embodied AI at CMU.
 
 - **[Pieter Abbeel](https://twitter.com/pabbeel)**  
@@ -110,7 +104,7 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 - **[Chelsea Finn](https://twitter.com/chelseabfinn)**  
   Researcher in meta-learning, reinforcement learning, and robotics.
 
-- **[Angela Schoellig](https://twitter.com/aschoellig)**  
+- **[Angela Schoellig](https://twitter.com/angelaschoellig)**  
   Expert in controls and machine learning for robotics.
 
 - **[Rémi Cadène](https://twitter.com/remicadene)**  
@@ -128,7 +122,12 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 ---
 
 ## Podcasts
-*(No entries yet, contributions welcome!)*
+- **[The Robot Brains Podcast](https://open.spotify.com/show/2qbLq3HrhTnnmmsHc37QOD)**  
+  In each episode, host Pieter Abbeel meets brilliant minds building robots with brains—leading experts in AI Robotics from around the world. They explore how far humanity has come in creating conscious computers, mindful machines, and rational robots.  
+  *Host:* Pieter Abbeel | *Executive Producers:* Alice Patel & Henry Tobias Jones | *Audio Production:* Kieron Matthew Banerji | *Title Music:* Alejandro Del Pozo
+
+- **[Audrow Nash Podcast](https://open.spotify.com/show/74jWpWiLwsasY2QHtDcl8I)**  
+  In-depth, unscripted conversations with CEOs, CTOs, and thought leaders in the robotics industry, covering cutting-edge technology, business strategies, and the future of automation.
 
 ---
 
