@@ -18,6 +18,7 @@ This list is intentionally **selective**. It focuses on high-quality, useful, an
 - [People to Follow](#people-to-follow)
 - [Books](#books)
 - [Podcasts](#podcasts)
+- [YouTube Channels](#youtube-channels)
 - [Inspiring Robotics Companies & Projects](#inspiring-robotics-companies--projects)
 - [License](#license)
 - [Contributing](#contributing)
@@ -66,7 +67,7 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 ---
 
 ## Foundation Models for Robotics
-- **[ACT (Action-Conditioned Transformer)](https://huggingface.co/leobot/so-100)**  
+- **[ACT (Action-Conditioned Transformer)](https://github.com/LAMDA-RL/ACT)**  
   A transformer model fine-tuned for robotics tasks, enabling action-conditioned decision-making.
 
 - **[OpenVLA](https://openvla.github.io/)**  
@@ -128,6 +129,12 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 
 - **[Audrow Nash Podcast](https://open.spotify.com/show/74jWpWiLwsasY2QHtDcl8I)**  
   In-depth, unscripted conversations with CEOs, CTOs, and thought leaders in the robotics industry, covering cutting-edge technology, business strategies, and the future of automation.
+
+---
+
+## YouTube Channels
+- **[Skyentific](https://www.youtube.com/@Skyentific/videos)**  
+  Focused on developing practical and innovative robots, robotic arms, and legs, as well as other engineering projects. The channel aims to build a bright, robotic future that benefits everyone.
 
 ---
 
