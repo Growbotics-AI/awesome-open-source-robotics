@@ -29,7 +29,7 @@ This list is intentionally **selective**. It focuses on high-quality, useful, an
 A collection of notable open-source robotics projects that push boundaries and inspire.
 
 ### Robotic Arms
-- **[Bcn3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
+- **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
   A fully open-source 3D-printable robotic arm developed by BCN3D Technologies. Designed for educational and research purposes.
 
 - **[SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)**  
