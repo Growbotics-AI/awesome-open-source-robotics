@@ -73,6 +73,9 @@ Essential tools and frameworks for developing, controlling, and simulating robot
 - **[OpenVLA](https://openvla.github.io/)**  
   An open-source Vision-Language-Action (VLA) model.
 
+- **[GENESIS](https://genesis-embodied-ai.github.io/)**  
+  A framework for more general and capable embodied AI agents through over-trained foundation models.
+
 ---
 
 ## Datasets
