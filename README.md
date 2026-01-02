@@ -38,124 +38,124 @@ A curated selection of notable open-source robotics projects.
 ### Robotic Arms
 
 - **[SO-101 Open Robot Arm](https://github.com/TheRobotStudio/SO-ARM100)**  
-  Next-generation open-source 6-DOF robot arm designed for teleoperation and AI robotics research...
+  6-DOF robot arm for teleoperation and AI robotics research
 
 - **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
-  Open-source 3D printed robotic arm designed for accessibility and education
+  Open-source 3D printed robotic arm for education
 
 - **[OpenArm](https://github.com/enactic/openarm)**  
-  An open-source 7DOF humanoid arm designed for physical AI research and deployment in contact-rich...
+  7DOF humanoid arm for physical AI research in contact-rich environments
 
 ### Robotic Hands
 
 - **[Aero Hand Open](https://github.com/TetherIA/aero-hand-open)**  
-  Open-source tendon-driven robotic hand by TetherIA. 389g weight, $314 cost, 7 DOF across 16 joints...
+  Tendon-driven robotic hand: 389g, $314, 7 DOF with Python SDK and ROS2
 
 - **[TRLC-DK1](https://github.com/robot-learning-co/trlc-dk1)**  
-  Affordable bimanual robotic platform for humanoid data collection with two 6+1 DOF leader-follower...
+  Bimanual robot platform for humanoid data collection with LeRobot
 
 - **[LEAP Hand](https://github.com/leap-hand/LEAP_Hand_API)**  
-  Low-cost, efficient, and anthropomorphic dexterous robot hand designed for robot learning. Features...
+  Low-cost anthropomorphic hand with 16 DOF for robot learning
 
 - **[Delta X Soft Gripper](https://github.com/deltaxrobot/Delta-X-3D-Printed-Parts)**  
-  DIY food-grade soft robotic gripper for just $10. Uses 3D-printed molds and food-safe silicone...
+  $10 DIY food-grade soft gripper using 3D-printed molds and silicone
 
 - **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**  
-  Open-source dexterous robotic hand design from The Robot Studio, developed in collaboration with...
+  Open-source dexterous hand design from The Robot Studio and NVIDIA
 
 ### Humanoids
 
 - **[Mobile ALOHA](https://github.com/MarkFzp/mobile-aloha)**  
-  A low-cost whole-body teleoperation system for learning bimanual mobile manipulation. Extends the...
+  $32k whole-body teleoperation system for bimanual mobile manipulation
 
 - **[LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi)**  
-  Low-cost mobile manipulator robot featuring a 3-wheel Kiwi (holonomic) drive with omni wheels...
+  Low-cost holonomic mobile manipulator with SO-ARM101 and LeRobot
 
 - **[HOPEJr](https://github.com/TheRobotStudio/HOPEJr)**  
-  Open-source DIY humanoid robot with 66 degrees of freedom including dexterous hands. Built by...
+  DIY humanoid robot with 66 DOF, 3D-printed parts, and LeRobot support
 
 ## Software & Frameworks
 
 Essential tools and frameworks for robotics development.
 
 - **[LeRobot](https://github.com/huggingface/lerobot)**  
-  HuggingFace's open-source machine learning library for real-world robotics in PyTorch. Provides...
+  HuggingFace ML library for real-world robotics in PyTorch
 
 - **[ROS 2](https://github.com/ros2/ros2)**  
-  The next-generation version of the Robot Operating System (ROS), optimized for real-time...
+  Next-gen Robot Operating System for real-time production robotics
 
 - **[Dora AI](https://github.com/dora-rs/dora)**  
-  Dataflow-Oriented Robotic Architecture (dora-rs) is middleware designed to streamline and simplify...
+  Dataflow middleware for AI robotics applications, built in Rust
 
 - **[RLinf](https://github.com/RLinf/RLinf)**  
-  RLinf is a flexible and scalable open-source infrastructure for post-training foundation models...
+  Scalable infrastructure for post-training foundation models via RL
 
 - **[Extreme Parkour with Legged Robots](https://github.com/chengxuxin/extreme-parkour)**  
-  Reinforcement learning system enabling legged robots to perform parkour maneuvers including...
+  RL system for legged robot parkour trained in under 20 hours
 
 ## Foundation Models
 
 AI models for robotics and embodied intelligence.
 
 - **[OpenPI](https://github.com/Physical-Intelligence/openpi)**  
-  Physical Intelligence open-source vision-language-action (VLA) foundation models for general robot...
+  Physical Intelligence VLA foundation models for general robot control
 
 - **[NVIDIA Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T)**  
-  NVIDIA Isaac GR00T N1.5 is an open foundation model for generalist humanoid robot reasoning and...
+  NVIDIA open foundation model for humanoid robot reasoning and skills
 
 - **[OpenVLA](https://github.com/openvla/openvla)**  
-  A 7B-parameter open-source Vision-Language-Action model for robotic manipulation. OpenVLA is...
+  7B-parameter Vision-Language-Action model for robotic manipulation
 
 - **[ACT (Action Chunking with Transformers)](https://github.com/tonyzhaozh/act)**  
-  Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware. ACT is a transformer-based...
+  Transformer-based policy learning for bimanual manipulation
 
 - **[SmolVLA](https://huggingface.co/lerobot/smolvla_base)**  
-  Compact 450M parameter Vision-Language-Action model from HuggingFace that runs on consumer...
+  450M parameter VLA model that runs on consumer hardware
 
 ## Simulators
 
 Physics simulators and virtual environments for robotics development and testing.
 
 - **[GENESIS](https://github.com/Genesis-Embodied-AI/Genesis)**  
-  The world's fastest physics engine delivering 43M FPS simulation speeds. A generative world for...
+  World's fastest physics engine: 43M FPS for embodied AI learning
 
 - **[MuJoCo](https://github.com/google-deepmind/mujoco)**  
-  DeepMind's physics engine for research in robotics, biomechanics, and machine learning. Known for...
+  DeepMind physics engine for robotics and ML research
 
 - **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)**  
-  NVIDIA's unified robotics learning framework built on Isaac Sim. Features GPU-accelerated...
+  NVIDIA unified robotics learning framework on Isaac Sim
 
 - **[ManiSkill](https://github.com/haosulab/ManiSkill)**  
-  High-performance GPU-parallelized robotics simulation benchmark for generalizable manipulation...
+  GPU-parallelized simulation for generalizable manipulation skills
 
 - **[NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim)**  
-  Open-source application on NVIDIA Omniverse for developing, simulating, and testing AI-driven...
+  NVIDIA Omniverse app for AI-driven robot simulation and testing
 
 ## Benchmarks
 
 Standardized benchmarks and evaluation frameworks for robotics research.
 
 - **[MetaWorld](https://github.com/Farama-Foundation/Metaworld)**  
-  An open-source benchmark for multi-task and meta reinforcement learning focused on continuous...
+  Multi-task and meta RL benchmark for robotic manipulation
 
 - **[RLBench](https://github.com/stepjam/RLBench)**  
-  A large-scale benchmark and learning environment for vision-guided manipulation research. Features...
+  100+ task benchmark for vision-guided manipulation research
 
 - **[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)**  
-  A benchmark for lifelong robot learning featuring 130 procedurally-generated tasks across...
+  Lifelong robot learning benchmark with 130 procedural tasks
 
 - **[CALVIN](https://github.com/mees/calvin)**  
-  Composing Actions from Language and Vision - an open-source simulated benchmark for training...
+  Language-conditioned manipulation benchmark for long-horizon tasks
 
 ## Datasets
 
 Training datasets for robot learning and research.
 
 - **[Open X-Embodiment (OXE)](https://github.com/google-deepmind/open_x_embodiment)**  
-  Largest open-source robotics dataset with 1M+ robot episodes from 22 robot embodiments, collected...
+  Largest open robotics dataset: 1M+ episodes from 22 embodiments
 
 - **[DROID](https://github.com/droid-dataset/droid)**  
-  DROID (Distributed Robot Interaction Dataset) is a large-scale in-the-wild robot manipulation...
+  76K robot manipulation trajectories from 564 diverse scenes
 
 **[Browse all projects on Open Source Robotics](https://robotics.growbotics.ai/projects)**
 
