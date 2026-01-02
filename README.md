@@ -1,185 +1,304 @@
 # Awesome Open Source Robotics
+
 > A curated list of inspiring and impactful open-source robotics projects, tools, and resources.
 
-This list is intentionally **selective**. It focuses on high-quality, useful, and inspiring open-source robotics content. Contributions are encouraged—just keep in mind that we strive to maintain an excellent standard of content.
+This list is intentionally **selective**. For the full database with BOMs, assembly guides, and detailed information, visit **[Open Source Robotics](https://robotics.growbotics.ai)**.
 
 ---
 
-## Table of Contents
+## Contents
+
 - [Projects](#projects)
   - [Robotic Arms](#robotic-arms)
   - [Robotic Hands](#robotic-hands)
-  - [Legged Robots](#legged-robots)
-  - [Humanoid-Like Systems](#humanoid-like-systems)
-- [Open Source Software](#open-source-software)
-- [Foundation Models for Robotics](#foundation-models-for-robotics)
+  - [Humanoids](#humanoids)
+- [Software & Frameworks](#software--frameworks)
+- [Foundation Models](#foundation-models)
+- [Simulators](#simulators)
+- [Benchmarks](#benchmarks)
 - [Datasets](#datasets)
+- [Research](#research)
+  - [Papers](#papers)
+  - [Books](#books)
+  - [Courses](#courses)
 - [Events](#events)
 - [People to Follow](#people-to-follow)
-- [Books](#books)
 - [Podcasts](#podcasts)
 - [YouTube Channels](#youtube-channels)
-- [Inspiring Robotics Companies & Projects](#inspiring-robotics-companies--projects)
+- [Blogs](#blogs)
+- [Inspiring Companies](#inspiring-companies)
 - [License](#license)
-- [Contributing](#contributing)
 
 ---
 
 ## Projects
-A collection of notable open-source robotics projects that push boundaries and inspire.
+
+A curated selection of notable open-source robotics projects.
 
 ### Robotic Arms
-- **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
-  A fully open-source 3D-printable robotic arm developed by BCN3D Technologies. Designed for educational and research purposes.
 
-- **[SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)**  
-  A modular robotic arm designed by **[The Robot Studio](https://www.therobotstudio.com/)** for accessible, open-source robotics experimentation.
+- **[SO-101 Open Robot Arm](https://github.com/TheRobotStudio/SO-ARM100)**  
+  Next-generation open-source 6-DOF robot arm designed for teleoperation and AI robotics research...
+
+- **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
+  Open-source 3D printed robotic arm designed for accessibility and education
+
+- **[OpenArm](https://github.com/enactic/openarm)**  
+  An open-source 7DOF humanoid arm designed for physical AI research and deployment in contact-rich...
 
 ### Robotic Hands
-- **[Leap Hand Project](https://leaphand.com/)**  
-  An open-source, 3D-printed robotic hand providing affordable and functional prosthetics.
 
-### Legged Robots
-- **[Extreme Parkour with Legged Robots](https://extreme-parkour.github.io/)**  
-  A project showcasing extreme agility and mobility for quadruped robots through learning-based parkour.
+- **[Aero Hand Open](https://github.com/TetherIA/aero-hand-open)**  
+  Open-source tendon-driven robotic hand by TetherIA. 389g weight, $314 cost, 7 DOF across 16 joints...
 
-### Humanoid-Like Systems
+- **[TRLC-DK1](https://github.com/robot-learning-co/trlc-dk1)**  
+  Affordable bimanual robotic platform for humanoid data collection with two 6+1 DOF leader-follower...
+
+- **[LEAP Hand](https://github.com/leap-hand/LEAP_Hand_API)**  
+  Low-cost, efficient, and anthropomorphic dexterous robot hand designed for robot learning. Features...
+
+- **[Delta X Soft Gripper](https://github.com/deltaxrobot/Delta-X-3D-Printed-Parts)**  
+  DIY food-grade soft robotic gripper for just $10. Uses 3D-printed molds and food-safe silicone...
+
+- **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**  
+  Open-source dexterous robotic hand design from The Robot Studio, developed in collaboration with...
+
+### Humanoids
+
+- **[Mobile ALOHA](https://github.com/MarkFzp/mobile-aloha)**  
+  A low-cost whole-body teleoperation system for learning bimanual mobile manipulation. Extends the...
+
+- **[LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi)**  
+  Low-cost mobile manipulator robot featuring a 3-wheel Kiwi (holonomic) drive with omni wheels...
+
 - **[HOPEJr](https://github.com/TheRobotStudio/HOPEJr)**  
-  Open-source, DIY humanoid robots with dexterous hands and bouncy, low-cost components designed to leverage AI for practical control.
+  Open-source DIY humanoid robot with 66 degrees of freedom including dexterous hands. Built by...
 
----
+## Software & Frameworks
 
-## Open Source Software
-Essential tools and frameworks for developing, controlling, and simulating robots.
+Essential tools and frameworks for robotics development.
 
-- **[ROS 2](https://docs.ros.org/en/foxy/index.html)**  
-  The next-generation version of the Robot Operating System (ROS), optimized for real-time performance.
+- **[LeRobot](https://github.com/huggingface/lerobot)**  
+  HuggingFace's open-source machine learning library for real-world robotics in PyTorch. Provides...
 
-- **[LeRobot](https://huggingface.co/lerobot)**  
-  State-of-the-art machine learning models and tools for real-world robotics.
+- **[ROS 2](https://github.com/ros2/ros2)**  
+  The next-generation version of the Robot Operating System (ROS), optimized for real-time...
 
-- **[Dora AI](https://dora-rs.ai/)**  
-  A real-time, distributed AI runtime for robotics applications, built with Rust.
+- **[Dora AI](https://github.com/dora-rs/dora)**  
+  Dataflow-Oriented Robotic Architecture (dora-rs) is middleware designed to streamline and simplify...
 
-- **[NVIDIA Isaac Sim](https://developer.nvidia.com/isaac-sim)**  
-  A powerful simulation platform for robotics development with high-fidelity physics.
+- **[RLinf](https://github.com/RLinf/RLinf)**  
+  RLinf is a flexible and scalable open-source infrastructure for post-training foundation models...
 
----
+- **[Extreme Parkour with Legged Robots](https://github.com/chengxuxin/extreme-parkour)**  
+  Reinforcement learning system enabling legged robots to perform parkour maneuvers including...
 
-## Foundation Models for Robotics
-- **[ACT (Action-Conditioned Transformer)](https://github.com/LAMDA-RL/ACT)**  
-  A transformer model fine-tuned for robotics tasks, enabling action-conditioned decision-making.
+## Foundation Models
 
-- **[OpenVLA](https://openvla.github.io/)**  
-  An open-source Vision-Language-Action (VLA) model.
+AI models for robotics and embodied intelligence.
 
-- **[GENESIS](https://genesis-embodied-ai.github.io/)**  
-  A framework for more general and capable embodied AI agents through over-trained foundation models.
+- **[OpenPI](https://github.com/Physical-Intelligence/openpi)**  
+  Physical Intelligence open-source vision-language-action (VLA) foundation models for general robot...
 
----
+- **[NVIDIA Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T)**  
+  NVIDIA Isaac GR00T N1.5 is an open foundation model for generalist humanoid robot reasoning and...
+
+- **[OpenVLA](https://github.com/openvla/openvla)**  
+  A 7B-parameter open-source Vision-Language-Action model for robotic manipulation. OpenVLA is...
+
+- **[ACT (Action Chunking with Transformers)](https://github.com/tonyzhaozh/act)**  
+  Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware. ACT is a transformer-based...
+
+- **[SmolVLA](https://huggingface.co/lerobot/smolvla_base)**  
+  Compact 450M parameter Vision-Language-Action model from HuggingFace that runs on consumer...
+
+## Simulators
+
+Physics simulators and virtual environments for robotics development and testing.
+
+- **[GENESIS](https://github.com/Genesis-Embodied-AI/Genesis)**  
+  The world's fastest physics engine delivering 43M FPS simulation speeds. A generative world for...
+
+- **[MuJoCo](https://github.com/google-deepmind/mujoco)**  
+  DeepMind's physics engine for research in robotics, biomechanics, and machine learning. Known for...
+
+- **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)**  
+  NVIDIA's unified robotics learning framework built on Isaac Sim. Features GPU-accelerated...
+
+- **[ManiSkill](https://github.com/haosulab/ManiSkill)**  
+  High-performance GPU-parallelized robotics simulation benchmark for generalizable manipulation...
+
+- **[NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim)**  
+  Open-source application on NVIDIA Omniverse for developing, simulating, and testing AI-driven...
+
+## Benchmarks
+
+Standardized benchmarks and evaluation frameworks for robotics research.
+
+- **[MetaWorld](https://github.com/Farama-Foundation/Metaworld)**  
+  An open-source benchmark for multi-task and meta reinforcement learning focused on continuous...
+
+- **[RLBench](https://github.com/stepjam/RLBench)**  
+  A large-scale benchmark and learning environment for vision-guided manipulation research. Features...
+
+- **[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)**  
+  A benchmark for lifelong robot learning featuring 130 procedurally-generated tasks across...
+
+- **[CALVIN](https://github.com/mees/calvin)**  
+  Composing Actions from Language and Vision - an open-source simulated benchmark for training...
 
 ## Datasets
-*(No entries yet, contributions welcome!)*
+
+Training datasets for robot learning and research.
+
+- **[Open X-Embodiment (OXE)](https://github.com/google-deepmind/open_x_embodiment)**  
+  Largest open-source robotics dataset with 1M+ robot episodes from 22 robot embodiments, collected...
+
+- **[DROID](https://github.com/droid-dataset/droid)**  
+  DROID (Distributed Robot Interaction Dataset) is a large-scale in-the-wild robot manipulation...
+
+**[Browse all projects on Open Source Robotics](https://robotics.growbotics.ai/projects)**
+
+---
+
+## Research
+
+### Papers
+
+- **[Instant Policy: In-Context Imitation Learning via Graph Diffusion](https://arxiv.org/pdf/2411.12633.pdf)** - ICLR 2025 Robot Learning Workshop (Best Paper Award)
+
+**[Browse all papers](https://robotics.growbotics.ai/research/papers)**
+
+### Books
+
+- **[Dancing with Roomba: Cracking the Robot Riddle and Building an Icon](https://www.amazon.com/Dancing-Roomba-Cracking-Riddle-Building/dp/1032889527)** by Joseph L. Jones
+
+- **[Modern Robotics: Mechanics, Planning, and Control](https://www.amazon.com/Modern-Robotics-Mechanics-Planning-Control/dp/1107156300)** by Kevin M. Lynch, Frank C. Park
+
+- **[Probabilistic Robotics](https://www.amazon.com/Probabilistic-Robotics-INTELLIGENT-ROBOTICS-AUTONOMOUS/dp/0262201623)** by Sebastian Thrun, Wolfram Burgard, Dieter Fox
+
+**[Browse all books](https://robotics.growbotics.ai/research/books)**
+
+### Courses
+
+- **[Modern Robotics: Mechanics, Planning, and Control Specialization](https://www.coursera.org/specializations/modernrobotics)** on Coursera
+
+- **[HuggingFace Robotics Course](https://huggingface.co/learn/robotics-course/unit0/1)** on Hugging Face
+
+**[Browse all courses](https://robotics.growbotics.ai/research/courses)**
 
 ---
 
 ## Events
-- **[NeurIPS](https://neurips.cc/)**  
-  AI and machine learning conference with robotics highlights.
 
-- **[CoRL](https://www.robot-learning.org/)**  
-  Conference on Robot Learning, bridging robotics and AI.
+- **[IEEE International Conference on Robotics and Automation (ICRA)](https://2026.ieee-icra.org/)**
 
-- **[ICRA](https://www.ieee-icra.org/)**  
-  International Conference on Robotics and Automation.
+- **[Humanoids Summit](https://humanoidssummit.com/)**
 
-- **[Humanoids Summit](https://humanoidssummit.com/)**  
-  Event focused on humanoid robotics advancements.
+- **[NeurIPS - Neural Information Processing Systems](https://neurips.cc/)**
+
+- **[CoRL - Conference on Robot Learning](https://www.robot-learning.org/)**
+
+**[View all events](https://robotics.growbotics.ai/events)**
 
 ---
 
 ## People to Follow
-- **[Deepak Pathak](https://twitter.com/pathak2206)**  
-  Researcher in reinforcement learning and embodied AI at CMU.
 
-- **[Pieter Abbeel](https://twitter.com/pabbeel)**  
-  Expert in deep reinforcement learning and robotics.
+- **[Angela Schoellig](https://twitter.com/angelaschoellig)** (University of Toronto)
 
-- **[Chelsea Finn](https://twitter.com/chelseabfinn)**  
-  Researcher in meta-learning, reinforcement learning, and robotics.
+- **[Audrow Nash](https://twitter.com/audrow)**
 
-- **[Angela Schoellig](https://twitter.com/angelaschoellig)**  
-  Expert in controls and machine learning for robotics.
+- **[Chelsea Finn](https://twitter.com/chelseabfinn)** (Stanford University)
 
-- **[Rémi Cadène](https://twitter.com/remicadene)**  
-  HuggingFace researcher in robotics and vision-language models.
+- **[Deepak Pathak](https://twitter.com/pathak2206)** (Carnegie Mellon University)
 
-- **[Audrow Nash](https://twitter.com/audrow)**  
-  Host of the Audrow Nash Podcast, exploring robotics and AI.
+- **[Pieter Abbeel](https://twitter.com/pabbeel)** (UC Berkeley)
 
----
+- **[Rémi Cadène](https://twitter.com/RemiCadene)** (UMA (Universal Mechanical Assistant))
 
-## Books
-- **[Modern Robotics: Mechanics, Planning, and Control (2017) by Kevin M. Lynch & Frank C. Park](https://www.amazon.co.uk/gp/product/1107156300/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)**  
-  A comprehensive introduction to robotics mechanics, motion planning, and control, integrating theory with practical insights.
+**[Discover more researchers and engineers](https://robotics.growbotics.ai/community/people)**
 
 ---
 
 ## Podcasts
-- **[The Robot Brains Podcast](https://open.spotify.com/show/2qbLq3HrhTnnmmsHc37QOD)**  
-  Explores the frontiers of AI and robotics through interviews with leading researchers and innovators.
 
-- **[Audrow Nash Podcast](https://open.spotify.com/show/74jWpWiLwsasY2QHtDcl8I)**  
-  Features in-depth, unscripted conversations with industry leaders in robotics, focusing on emerging technologies and future directions.
+- **[Audrow Nash Podcast](https://open.spotify.com/show/74jWpWiLwsasY2QHtDcl8I)**
+
+- **[RoboPapers](https://open.spotify.com/show/3U0Ed7poaOElItEyUPkuto)**
+
+- **[The Robot Brains Podcast](https://open.spotify.com/show/1oQXUJBjpJoxfUd3JAc0Zt)**
+
+**[Browse all podcasts](https://robotics.growbotics.ai/community/podcasts)**
 
 ---
 
 ## YouTube Channels
-- **[Skyentific](https://www.youtube.com/@Skyentific/videos)**  
-  Showcasing practical and innovative robotics projects, including robotic arms and legs, with a goal of building a future that benefits everyone.
+
+- **[Skyentific](https://www.youtube.com/@skyentific)**
+
+- **[CMU Robotics Institute](https://www.youtube.com/@cmurobotics)**
+
+**[Browse all channels](https://robotics.growbotics.ai/community/youtube)**
 
 ---
 
-## Inspiring Robotics Companies & Projects
-A reference list of non-open-source projects and companies that showcase state-of-the-art robotics and inspire the robotics community.
+## Blogs
 
-- **[1X Technologies](https://1x.tech/)**  
-   Developing general-purpose humanoid robots with scalable automation.
+Robotics blogs and newsletters worth following.
 
-- **[Unitree Robotics](https://www.unitree.com/)**  
-   Affordable, high-performance quadruped robots like Go1 and Aliengo.
+- **[Six Degrees of Robotics](https://sixdegreesofrobotics.substack.com/)** by Christopher Sanchez
 
-- **[Agility Robotics](https://agilityrobotics.com/)**  
-   Creators of Digit, a bipedal robot for real-world logistics.
+- **[State of Robot Learning — Dec 2025](https://vedder.io/misc/state_of_robot_learning_dec_2025.html)** by Kyle Vedder
 
-- **[Apptronik](https://apptronik.com/)**  
-   Innovators in humanoid robots, including **Apollo**.
+- **[We All Are Robots](https://ziegler.substack.com)** by Lukas Ziegler
 
-- **[Enchanted Tools](https://enchanted.tools/)**  
-   Creators of Miroka, emotionally engaging humanoid-like robots.
+**[Browse all blogs](https://robotics.growbotics.ai/community/blogs)**
 
-- **[Hanson Robotics](https://hansonrobotics.com/)**  
-   Developers of lifelike humanoid robots like **Sophia**.
+---
 
-- **[Engineered Arts](https://engineeredarts.co.uk/)**  
-   Creators of Ameca, advanced humanoid robots for human interaction.
+## Inspiring Companies
 
-- **[Boston Dynamics](https://www.bostondynamics.com/)**  
-   Industry leader in dynamic robots like **Spot** and **Atlas**.
+Robotics companies and research labs pushing the boundaries.
 
-- **[Tesla](https://www.tesla.com/we-robot)**  
-   Developing the Optimus humanoid robot to advance automated labor and safety.
+- **[1X Technologies](https://www.1x.tech)**  
+  Developing general-purpose humanoid robots with scalable automation.
+
+- **[Agility Robotics](https://www.agilityrobotics.com)**  
+  Creators of Digit, a bipedal robot for real-world logistics.
+
+- **[Apptronik](https://apptronik.com)**  
+  Innovators in humanoid robots, including Apollo.
+
+- **[Boston Dynamics](https://www.bostondynamics.com)**  
+  Industry leader in dynamic robots like Spot and Atlas.
+
+- **[Enchanted Tools](https://enchanted.tools)**  
+  Creators of Miroka, emotionally engaging humanoid-like robots.
+
+- **[Engineered Arts](https://www.engineeredarts.co.uk)**  
+  Creators of Ameca, advanced humanoid robots for human interaction.
+
+- **[Hanson Robotics](https://www.hansonrobotics.com)**  
+  Developers of lifelike humanoid robots like Sophia.
+
+- **[Sunday](https://www.sunday.ai)**  
+  Building Memo, a household robot trained on 10 million real-world chores using...
+
+**[Explore all companies](https://robotics.growbotics.ai/community/companies)**
 
 ---
 
 ## License
-This list is licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+
+This list is licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ---
 
 ## Contributing
-Suggestions for new resources are welcome! Open an issue or submit a pull request. We appreciate quality contributions that help maintain the inspiring standard of this collection.
+
+Suggestions welcome! Visit **[Open Source Robotics](https://robotics.growbotics.ai)** to suggest new content or open an issue in this repository.
 
 ---
 
-🚀 *Happy Exploring Robotics!* 🚀
+**[Explore the full platform with BOMs, assembly guides, and more](https://robotics.growbotics.ai)**
