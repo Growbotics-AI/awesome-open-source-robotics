@@ -1,6 +1,6 @@
 # 开源机器人精选
 
-**[English](README.md)**
+**[English](README.md)** | **[日本語](README_ja.md)** | **[Deutsch](README_de.md)** | **[Español](README_es.md)**
 
 > 精选的开源机器人项目、工具和资源列表。
 
