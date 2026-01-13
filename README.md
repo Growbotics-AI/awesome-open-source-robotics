@@ -1,5 +1,7 @@
 # Awesome Open Source Robotics
 
+**[中文版 (Chinese)](README_zh.md)**
+
 > A curated list of inspiring and impactful open-source robotics projects, tools, and resources.
 
 This list is intentionally **selective**. For the full database with BOMs, assembly guides, and detailed information, visit **[Open Source Robotics](https://robotics.growbotics.ai)**.
