@@ -13,6 +13,7 @@ This list is intentionally **selective**. For the full database with BOMs, assem
 - [Projects](#projects)
   - [Robotic Arms](#robotic-arms)
   - [Robotic Hands](#robotic-hands)
+  - [Legged Robots](#legged-robots)
   - [Humanoids](#humanoids)
 - [Software & Frameworks](#software--frameworks)
 - [Foundation Models](#foundation-models)
@@ -62,8 +63,16 @@ A curated selection of notable open-source robotics projects.
 - **[Delta X Soft Gripper](https://github.com/deltaxrobot/Delta-X-3D-Printed-Parts)**  
   $10 DIY food-grade soft gripper using 3D-printed molds and silicone
 
-- **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**  
+- **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**
   Open-source dexterous hand design from The Robot Studio and NVIDIA
+
+### Legged Robots
+
+- **[Solo12](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware)**
+  Lightweight 12-DOF quadruped robot for legged locomotion research with torque-controlled actuators
+
+- **[Open-Source Leg](https://github.com/neurobionics/opensourceleg)**
+  Open-source robotic prosthetic leg platform with hardware designs and Python SDK
 
 ### Humanoids
 

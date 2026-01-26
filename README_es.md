@@ -13,6 +13,7 @@ Esta lista es intencionalmente **selectiva**. Para la base de datos completa con
 - [Proyectos](#proyectos)
   - [Brazos Robóticos](#brazos-robóticos)
   - [Manos Robóticas](#manos-robóticas)
+  - [Robots con Patas](#robots-con-patas)
   - [Humanoides](#humanoides)
 - [Software y Frameworks](#software-y-frameworks)
 - [Modelos Fundacionales](#modelos-fundacionales)
@@ -64,6 +65,14 @@ Una selección curada de proyectos notables de robótica de código abierto.
 
 - **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**
   Diseño de mano diestra de código abierto de The Robot Studio y NVIDIA
+
+### Robots con Patas
+
+- **[Solo12](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware)**
+  Robot cuadrúpedo ligero de 12 DOF para investigación de locomoción con actuadores de control de par
+
+- **[Open-Source Leg](https://github.com/neurobionics/opensourceleg)**
+  Plataforma de pierna protésica robótica de código abierto con diseños de hardware y SDK de Python
 
 ### Humanoides
 

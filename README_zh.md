@@ -13,6 +13,7 @@
 - [项目](#项目)
   - [机械臂](#机械臂)
   - [机械手](#机械手)
+  - [足式机器人](#足式机器人)
   - [人形机器人](#人形机器人)
 - [软件与框架](#软件与框架)
 - [基础模型](#基础模型)
@@ -64,6 +65,14 @@
 
 - **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**
   来自The Robot Studio和NVIDIA的开源灵巧手设计
+
+### 足式机器人
+
+- **[Solo12](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware)**
+  用于腿式运动研究的轻量级12自由度四足机器人，配备扭矩控制执行器
+
+- **[Open-Source Leg](https://github.com/neurobionics/opensourceleg)**
+  开源机器人假肢腿平台，包含硬件设计和Python SDK
 
 ### 人形机器人
 

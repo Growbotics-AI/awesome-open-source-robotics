@@ -13,6 +13,7 @@ Diese Liste ist bewusst **selektiv**. Für die vollständige Datenbank mit Stüc
 - [Projekte](#projekte)
   - [Roboterarme](#roboterarme)
   - [Roboterhände](#roboterhände)
+  - [Laufroboter](#laufroboter)
   - [Humanoide](#humanoide)
 - [Software & Frameworks](#software--frameworks)
 - [Foundation Models](#foundation-models)
@@ -64,6 +65,14 @@ Eine kuratierte Auswahl bemerkenswerter Open-Source-Robotikprojekte.
 
 - **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**
   Open-Source geschickte Hand-Design von The Robot Studio und NVIDIA
+
+### Laufroboter
+
+- **[Solo12](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware)**
+  Leichtgewichtiger 12-DOF Vierbeinroboter für Fortbewegungsforschung mit drehmomentgesteuerten Aktuatoren
+
+- **[Open-Source Leg](https://github.com/neurobionics/opensourceleg)**
+  Open-Source robotische Beinprothesen-Plattform mit Hardware-Designs und Python SDK
 
 ### Humanoide
 

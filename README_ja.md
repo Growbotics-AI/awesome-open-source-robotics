@@ -13,6 +13,7 @@
 - [プロジェクト](#プロジェクト)
   - [ロボットアーム](#ロボットアーム)
   - [ロボットハンド](#ロボットハンド)
+  - [脚式ロボット](#脚式ロボット)
   - [ヒューマノイド](#ヒューマノイド)
 - [ソフトウェア・フレームワーク](#ソフトウェアフレームワーク)
 - [基盤モデル](#基盤モデル)
@@ -64,6 +65,14 @@
 
 - **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**
   The Robot StudioとNVIDIAによるオープンソース巧緻ハンド設計
+
+### 脚式ロボット
+
+- **[Solo12](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware)**
+  トルク制御アクチュエータを搭載した歩行研究用12自由度軽量四足ロボット
+
+- **[Open-Source Leg](https://github.com/neurobionics/opensourceleg)**
+  ハードウェア設計とPython SDKを備えたオープンソースロボット義足プラットフォーム
 
 ### ヒューマノイド
 
