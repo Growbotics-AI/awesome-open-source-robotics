@@ -1,6 +1,6 @@
 # Awesome Open Source Robotik
 
-**[English](README.md)** | **[中文](README_zh.md)** | **[日本語](README_ja.md)** | **[Español](README_es.md)**
+**[English](README.md)** | **[中文](README_zh.md)** | **[日本語](README_ja.md)** | **[Español](README_es.md)** | **[Français](README_fr.md)** | **[한국어](README_ko.md)** | **[Português](README_pt.md)**
 
 > Eine kuratierte Liste inspirierender und wirkungsvoller Open-Source-Robotikprojekte, Tools und Ressourcen.
 

@@ -1,6 +1,6 @@
 # Awesome Robótica de Código Abierto
 
-**[English](README.md)** | **[中文](README_zh.md)** | **[日本語](README_ja.md)** | **[Deutsch](README_de.md)**
+**[English](README.md)** | **[中文](README_zh.md)** | **[日本語](README_ja.md)** | **[Deutsch](README_de.md)** | **[Français](README_fr.md)** | **[한국어](README_ko.md)** | **[Português](README_pt.md)**
 
 > Una lista curada de proyectos, herramientas y recursos de robótica de código abierto inspiradores e impactantes.
 
