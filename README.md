@@ -15,6 +15,9 @@ This list is intentionally **selective**. For the full database with BOMs, assem
   - [Robotic Hands](#robotic-hands)
   - [Legged Robots](#legged-robots)
   - [Humanoids](#humanoids)
+  - [Drones & UAV](#drones--uav)
+  - [Agriculture](#agriculture)
+  - [Medical & Assistive](#medical--assistive)
 - [Software & Frameworks](#software--frameworks)
 - [Foundation Models](#foundation-models)
 - [Simulators](#simulators)
@@ -30,6 +33,7 @@ This list is intentionally **selective**. For the full database with BOMs, assem
 - [YouTube Channels](#youtube-channels)
 - [Blogs](#blogs)
 - [Inspiring Companies](#inspiring-companies)
+- [Updates](#updates)
 - [License](#license)
 
 ---
@@ -40,31 +44,34 @@ A curated selection of notable open-source robotics projects.
 
 ### Robotic Arms
 
-- **[SO-101 Open Robot Arm](https://github.com/TheRobotStudio/SO-ARM100)**  
+- **[SO-101 Open Robot Arm](https://github.com/TheRobotStudio/SO-ARM100)**
   6-DOF robot arm for teleoperation and AI robotics research
 
-- **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**  
+- **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**
   Open-source 3D printed robotic arm for education
 
-- **[OpenArm](https://github.com/enactic/openarm)**  
+- **[OpenArm](https://github.com/enactic/openarm)**
   7DOF humanoid arm for physical AI research in contact-rich environments
 
 ### Robotic Hands
 
-- **[Aero Hand Open](https://github.com/TetherIA/aero-hand-open)**  
+- **[Aero Hand Open](https://github.com/TetherIA/aero-hand-open)**
   Tendon-driven robotic hand: 389g, $314, 7 DOF with Python SDK and ROS2
 
-- **[TRLC-DK1](https://github.com/robot-learning-co/trlc-dk1)**  
+- **[TRLC-DK1](https://github.com/robot-learning-co/trlc-dk1)**
   Bimanual robot platform for humanoid data collection with LeRobot
 
-- **[LEAP Hand](https://github.com/leap-hand/LEAP_Hand_API)**  
+- **[LEAP Hand](https://github.com/leap-hand/LEAP_Hand_API)**
   Low-cost anthropomorphic hand with 16 DOF for robot learning
 
-- **[Delta X Soft Gripper](https://github.com/deltaxrobot/Delta-X-3D-Printed-Parts)**  
+- **[Delta X Soft Gripper](https://github.com/deltaxrobot/Delta-X-3D-Printed-Parts)**
   $10 DIY food-grade soft gripper using 3D-printed molds and silicone
 
 - **[DexHand v2.3](https://github.com/TheRobotStudio/V2_DexHand)**
   Open-source dexterous hand design from The Robot Studio and NVIDIA
+
+- **[OpenBionics Prosthetic Hands](https://github.com/OpenBionics/Prosthetic-Hands)**
+  Affordable 3D-printed prosthetic hand designs for research and assistive use
 
 ### Legged Robots
 
@@ -76,96 +83,156 @@ A curated selection of notable open-source robotics projects.
 
 ### Humanoids
 
-- **[Mobile ALOHA](https://github.com/MarkFzp/mobile-aloha)**  
+- **[Mobile ALOHA](https://github.com/MarkFzp/mobile-aloha)**
   $32k whole-body teleoperation system for bimanual mobile manipulation
 
-- **[LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi)**  
+- **[LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi)**
   Low-cost holonomic mobile manipulator with SO-ARM101 and LeRobot
 
-- **[HOPEJr](https://github.com/TheRobotStudio/HOPEJr)**  
+- **[HOPEJr](https://github.com/TheRobotStudio/HOPEJr)**
   DIY humanoid robot with 66 DOF, 3D-printed parts, and LeRobot support
+
+- **[TienKung 3.0](https://github.com/Open-X-Humanoid/TienKung-Lab)**
+  Open-source full-size humanoid robot platform for locomotion and manipulation research
+
+### Drones & UAV
+
+- **[ArduPilot](https://github.com/ArduPilot/ardupilot)**
+  Leading open-source autopilot for drones, planes, rovers, and submarines
+
+- **[PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)**
+  Professional open-source flight controller for drones and autonomous vehicles
+
+- **[OpenDroneMap](https://github.com/OpenDroneMap/ODM)**
+  Photogrammetry toolkit for processing drone imagery into maps and 3D models
+
+- **[QGroundControl](https://github.com/mavlink/qgroundcontrol)**
+  Cross-platform ground control station for MAVLink-based drones
+
+- **[Paparazzi UAV](https://github.com/paparazzi/paparazzi)**
+  Complete open-source autopilot system for fixed-wing and multirotor UAVs
+
+- **[Flix](https://github.com/okalachev/flix)**
+  Educational open-source quadcopter flight controller on ESP32
+
+### Agriculture
+
+- **[FarmBot](https://github.com/FarmBot/farmbot_os)**
+  Open-source CNC farming robot for automated precision agriculture
+
+- **[OpenWeedLocator](https://github.com/geezacoleman/OpenWeedLocator)**
+  Low-cost, open-source weed detection for site-specific spraying
+
+- **[Acorn Precision Farming Rover](https://github.com/Twisted-Fields/acorn-precision-farming-rover)**
+  Solar-powered autonomous rover for small-scale regenerative farming
+
+### Medical & Assistive
+
+- **[SOFA Framework](https://github.com/sofa-framework/sofa)**
+  Physics simulation framework for medical robotics, surgical training, and soft body modeling
+
+- **[da Vinci Research Kit (dVRK)](https://github.com/jhu-dvrk/sawIntuitiveResearchKit)**
+  Open-source research platform for the da Vinci surgical robot system
+
+- **[Assistive Gym](https://github.com/Healthcare-Robotics/assistive-gym)**
+  Physics simulation for training assistive robots in caregiving tasks
+
+- **[BioAmp EXG Pill](https://github.com/upsidedownlabs/BioAmp-EXG-Pill)**
+  Tiny biosignal acquisition board for EMG, ECG, EEG, and EOG research
 
 ## Software & Frameworks
 
 Essential tools and frameworks for robotics development.
 
-- **[LeRobot](https://github.com/huggingface/lerobot)**  
+- **[LeRobot](https://github.com/huggingface/lerobot)**
   HuggingFace ML library for real-world robotics in PyTorch
 
-- **[ROS 2](https://github.com/ros2/ros2)**  
+- **[ROS 2](https://github.com/ros2/ros2)**
   Next-gen Robot Operating System for real-time production robotics
 
-- **[Dora AI](https://github.com/dora-rs/dora)**  
+- **[Dora AI](https://github.com/dora-rs/dora)**
   Dataflow middleware for AI robotics applications, built in Rust
 
-- **[RLinf](https://github.com/RLinf/RLinf)**  
+- **[Open-RMF](https://github.com/open-rmf/rmf)**
+  Open Robot Management Framework for multi-fleet robot coordination
+
+- **[openTCS](https://github.com/openTCS/opentcs)**
+  Transport control system for coordinating fleets of autonomous vehicles
+
+- **[RLinf](https://github.com/RLinf/RLinf)**
   Scalable infrastructure for post-training foundation models via RL
 
-- **[Extreme Parkour with Legged Robots](https://github.com/chengxuxin/extreme-parkour)**  
+- **[Extreme Parkour with Legged Robots](https://github.com/chengxuxin/extreme-parkour)**
   RL system for legged robot parkour trained in under 20 hours
 
 ## Foundation Models
 
 AI models for robotics and embodied intelligence.
 
-- **[OpenPI](https://github.com/Physical-Intelligence/openpi)**  
+- **[OpenPI](https://github.com/Physical-Intelligence/openpi)**
   Physical Intelligence VLA foundation models for general robot control
 
-- **[NVIDIA Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T)**  
+- **[NVIDIA Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T)**
   NVIDIA open foundation model for humanoid robot reasoning and skills
 
-- **[OpenVLA](https://github.com/openvla/openvla)**  
+- **[OpenVLA](https://github.com/openvla/openvla)**
   7B-parameter Vision-Language-Action model for robotic manipulation
 
-- **[ACT (Action Chunking with Transformers)](https://github.com/tonyzhaozh/act)**  
+- **[ACT (Action Chunking with Transformers)](https://github.com/tonyzhaozh/act)**
   Transformer-based policy learning for bimanual manipulation
 
-- **[SmolVLA](https://huggingface.co/lerobot/smolvla_base)**  
+- **[SmolVLA](https://huggingface.co/lerobot/smolvla_base)**
   450M parameter VLA model that runs on consumer hardware
+
+- **[RynnBrain](https://github.com/alibaba-damo-academy/RynnBrain)**
+  Robotic foundation model from Alibaba DAMO Academy for generalized robot control
 
 ## Simulators
 
 Physics simulators and virtual environments for robotics development and testing.
 
-- **[GENESIS](https://github.com/Genesis-Embodied-AI/Genesis)**  
+- **[GENESIS](https://github.com/Genesis-Embodied-AI/Genesis)**
   World's fastest physics engine: 43M FPS for embodied AI learning
 
-- **[MuJoCo](https://github.com/google-deepmind/mujoco)**  
+- **[MuJoCo](https://github.com/google-deepmind/mujoco)**
   DeepMind physics engine for robotics and ML research
 
-- **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)**  
+- **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)**
   NVIDIA unified robotics learning framework on Isaac Sim
 
-- **[ManiSkill](https://github.com/haosulab/ManiSkill)**  
+- **[ManiSkill](https://github.com/haosulab/ManiSkill)**
   GPU-parallelized simulation for generalizable manipulation skills
 
-- **[NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim)**  
+- **[NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim)**
   NVIDIA Omniverse app for AI-driven robot simulation and testing
+
+- **[SurRoL](https://github.com/med-air/SurRoL)**
+  RL-based simulation platform for surgical robot learning
 
 ## Benchmarks
 
 Standardized benchmarks and evaluation frameworks for robotics research.
 
-- **[MetaWorld](https://github.com/Farama-Foundation/Metaworld)**  
+- **[MetaWorld](https://github.com/Farama-Foundation/Metaworld)**
   Multi-task and meta RL benchmark for robotic manipulation
 
-- **[RLBench](https://github.com/stepjam/RLBench)**  
+- **[RLBench](https://github.com/stepjam/RLBench)**
   100+ task benchmark for vision-guided manipulation research
 
-- **[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)**  
+- **[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)**
   Lifelong robot learning benchmark with 130 procedural tasks
 
-- **[CALVIN](https://github.com/mees/calvin)**  
+- **[CALVIN](https://github.com/mees/calvin)**
   Language-conditioned manipulation benchmark for long-horizon tasks
 
 ## Datasets
 
 Training datasets for robot learning and research.
 
-- **[Open X-Embodiment (OXE)](https://github.com/google-deepmind/open_x_embodiment)**  
+- **[Open X-Embodiment (OXE)](https://github.com/google-deepmind/open_x_embodiment)**
   Largest open robotics dataset: 1M+ episodes from 22 embodiments
 
-- **[DROID](https://github.com/droid-dataset/droid)**  
+- **[DROID](https://github.com/droid-dataset/droid)**
   76K robot manipulation trajectories from 564 diverse scenes
 
 **[Browse all projects on Open Source Robotics](https://robotics.growbotics.ai/projects)**
@@ -272,31 +339,39 @@ Robotics blogs and newsletters worth following.
 
 Robotics companies and research labs pushing the boundaries.
 
-- **[1X Technologies](https://www.1x.tech)**  
+- **[1X Technologies](https://www.1x.tech)**
   Developing general-purpose humanoid robots with scalable automation.
 
-- **[Agility Robotics](https://www.agilityrobotics.com)**  
+- **[Agility Robotics](https://www.agilityrobotics.com)**
   Creators of Digit, a bipedal robot for real-world logistics.
 
-- **[Apptronik](https://apptronik.com)**  
+- **[Apptronik](https://apptronik.com)**
   Innovators in humanoid robots, including Apollo.
 
-- **[Boston Dynamics](https://www.bostondynamics.com)**  
+- **[Boston Dynamics](https://www.bostondynamics.com)**
   Industry leader in dynamic robots like Spot and Atlas.
 
-- **[Enchanted Tools](https://enchanted.tools)**  
+- **[Enchanted Tools](https://enchanted.tools)**
   Creators of Miroka, emotionally engaging humanoid-like robots.
 
-- **[Engineered Arts](https://www.engineeredarts.co.uk)**  
+- **[Engineered Arts](https://www.engineeredarts.co.uk)**
   Creators of Ameca, advanced humanoid robots for human interaction.
 
-- **[Hanson Robotics](https://www.hansonrobotics.com)**  
+- **[Hanson Robotics](https://www.hansonrobotics.com)**
   Developers of lifelike humanoid robots like Sophia.
 
-- **[Sunday](https://www.sunday.ai)**  
+- **[Sunday](https://www.sunday.ai)**
   Building Memo, a household robot trained on 10 million real-world chores using...
 
 **[Explore all companies](https://robotics.growbotics.ai/community/companies)**
+
+---
+
+## Updates
+
+Weekly platform updates with new projects, features, and what we're working on.
+
+**[View all updates](https://robotics.growbotics.ai/updates)**
 
 ---
 
