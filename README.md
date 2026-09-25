@@ -126,6 +126,9 @@ A curated selection of notable open-source robotics projects.
 - **[Acorn Precision Farming Rover](https://github.com/Twisted-Fields/acorn-precision-farming-rover)**
   Solar-powered autonomous rover for small-scale regenerative farming
 
+- **[Sowbot](https://github.com/Agroecology-Lab/)**
+  ROS2 based autonomous rover for small-scale regenerative farming
+
 ### Medical & Assistive
 
 - **[SOFA Framework](https://github.com/sofa-framework/sofa)**
