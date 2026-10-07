@@ -47,6 +47,9 @@ A curated selection of notable open-source robotics projects.
 - **[SO-101 Open Robot Arm](https://github.com/TheRobotStudio/SO-ARM100)**
   6-DOF robot arm for teleoperation and AI robotics research
 
+- **[SO-ARM 102](https://github.com/roboninecom/SO-ARM-102)**
+  3D-printable leader-follower arm with 5 DOF plus a parallel gripper for LeRobot teleoperation and imitation learning
+
 - **[BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)**
   Open-source 3D printed robotic arm for education
 
